@@ -85,7 +85,7 @@ div.overview {
   color: white;
   font-size: 2rem;
   position: relative;
-  font-style: 'Gotham Black', sans serif;
+  font-family: 'Gotham Black', sans serif;
   top: 50%;
   text-align: center;
 
