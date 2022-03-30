@@ -1,0 +1,227 @@
+/* CSS FILE */
+/*Homepage*/
+/*General Tweaks*/
+
+body {
+  background-color: #fffefa;
+  font-family: 'Gotham',sans-serif;
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 120%;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Gotham Black',sans-serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+a:link {
+  color: black;
+  font-family: 'Gotham', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+a:hover {
+  color: purple;
+}
+
+
+/* Header*/
+header {
+  display: block;
+  align-items: center;
+  width: 90%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  z-index: 9999;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navitem{
+  width: calc(100%/3);
+}
+.aboutheader{
+  text-align: right;
+}
+.homeheader{
+  font-size: 200%;
+  text-align: center;
+}
+
+/*main*/
+
+div.overview {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 25px;
+
+}
+
+.projectpic{
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 25px auto;
+}
+.pictext {
+  color: white;
+  font-family: 'Gotham Black';
+  font-size: 2rem;
+  position: relative;
+  top: 50%;
+  text-align: center;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+.projectpic:hover .overlay{
+  opacity: 0.3;
+}
+
+/*Footer*/
+.footer_main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+.footeritem{
+  width: calc(100%/3);
+}
+.footerinstagram{
+  text-align: center;
+}
+.footerjoanneum{
+  text-align: right;
+}
+/*Projectspage*/
+.picgallery{
+  display: block;
+  position: relative;
+  top: 25px;
+}
+.picturesproject{
+  display: flex;
+
+}
+.leftgallery{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
+}
+.rightgallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.leftgallery a{
+  margin: 10% 0 0 0;
+  object-fit: contain;
+  width: 80%;
+  height: auto;
+}
+.rightgallery a{
+  margin: 10% 0 0 0;
+  object-fit: contain;
+  width: 80%;
+  height: auto;
+
+}
+/*Slideshow*/
+
+.slideshowcontainer {
+  display: grid;
+  font-size: 3em;
+}
+.slideshow {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.slideshowimage{
+  width: 50%;
+object-fit: contain;
+}
+.picbefore{
+  width: 25%;
+}
+.picnext{
+  width: 25%;
+}
+/*About*/
+.aboutcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.abouttext{
+  display: flex;
+  position:sticky;
+  flex-direction: column;
+  width: 50%;
+  top: 7em;
+}
+.backgroundcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: -25em;
+  z-index: -9999;
+}
+.background1{
+  display: flex;
+  width: 50%;
+  margin: 20% 0 0 0;
+}
+.background2{
+  display: flex;
+  width: 30%;
+  margin: 20% 0 0 0;
+}
+.background3{
+  display: flex;
+}
+.background4{
+  display: flex;
+  width: 40%;
+  margin:20% 0 0 0;
+}
+.background5{
+  display: flex;
+  margin: 20% 0 0 0;
+}
